@@ -1,0 +1,384 @@
+<html>
+    <title> Facileat </title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Calistoga|Damion|Fredoka+One|Gloria+Hallelujah|Knewave|Leckerli+One|Modak|Pacifico&display=swap" rel="stylesheet">
+        <style>
+        *{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #eeffff;
+}
+
+a{
+    color: #1122bb;
+    font-family: 'Fredoka One', 'Knewave', 'Pacifico', 'Modak';
+    font-size: 28px;
+    text-decoration: none;    
+}
+
+h1{
+    color: #1122bb;
+    font-family: 'Fredoka One', 'Knewave', 'Pacifico', 'Modak';
+}
+
+p{
+    font-size: 15;
+    font-family: 'comfortaa';
+    color: #111111;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    margin: auto;
+    width: calc(100% - 100px);
+    height: calc(100%);
+}
+
+.header{
+    width: 100%;
+    height: 320px;
+}
+
+.banner{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 250px;
+    height: auto;
+}
+
+.menu{
+    width: 100%;
+    height: 70px;
+    background-color: #ffee44;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: impact;
+}
+
+
+
+
+
+
+
+
+.mid{
+    width: 100%;
+    height: 1600px;
+    margin: 20px 0px 70px 0px;
+}
+
+.qs{
+    width: auto;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 30px 0px;
+}
+
+.tqs{
+    width: 100%;
+}
+
+.contqs{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_foto{
+    width: 48%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.foto{
+    width: 70%;
+    height: auto;
+}
+
+.div_txt1{
+    width: 48%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.txt1{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+.ms{
+    width: auto;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 70px 0px 70px 0px;
+}
+
+.tms{
+    height: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contms{
+    width: 100%;
+    height: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_text2{
+    width: 48%;
+    height: auto;
+}
+
+.text2{
+    width: 100%;
+    height: 100%;
+}
+
+.div_foto2{
+    width: 48%;
+    height: auto;
+}
+
+.foto2{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.pr{
+    width: auto;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tpr{
+    height: 10%;
+    margin: 0px 0px 20px 0px;
+}
+
+.contpr{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_foto3{
+    width: 48%;
+    height: auto;
+}
+
+.foto3 {
+    width: 100%;
+    height: auto;
+}
+
+.div_text3{
+    width: 48%;
+    height: auto;
+}
+
+.text3{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    padding: 30px 50px 20px 50px;
+    background-color: #1122aa;
+    display: flex;
+    flex-direction: row;
+   align-items: flex-start; 
+}
+
+.h1_footer{
+    width: 250px;
+    text-align: right;
+    height: auto;
+    font-family: 'Fredoka One', 'Knewave', 'Pacifico', 'Modak';
+    color: #ffee44;
+    flex-shrink: 0;
+}
+
+.text_footer{
+    width: 57%;
+    flex-shrink: 0;
+    height: auto;
+    color: #ffffff;
+    font-family: 'comfortaa';
+}
+
+@media (max-width: 768px){
+    .menu{
+        flex-direction: column;
+    }
+}
+        
+    </style>
+    </head>
+
+
+
+
+
+
+    <body>
+    <div class="tudo">    
+        <div class="container">
+            <div class="header">
+                <div class="banner">
+                    <img class="logo" src="img/logo.png">
+                </div>
+
+                <nav class="menu">
+                <a href="#qs"> Quem Somos? </a>
+                <a href="#ms"> Mídias Sociais </a>
+                <a href="#pr"> Produto </a>
+                <a href="#cc"> Como Comprar? </a>
+                </nav>
+            </div>
+            
+            <div class="mid">
+                <div class="qs">
+                    <a name="qs" id="qs"></a>
+                    <h1 class="tqs">Quem somos?</h1>
+                    <div class="contqs">
+                        <div class="div_foto">
+                            <img class="foto" src="img/ponto.png">
+                        </div>
+
+                        <div class="div_txt1">
+                            <div class="txt1">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>
+                                <p> Curabitur sem justo, semper vel eleifend in, ultricies luctus urna. Fusce sed elit facilisis, sagittis justo nec, congue ante. Quisque at orci ultrices dolor porta pharetra sit amet nec tortor. Integer massa massa, blandit tristique gravida nec, faucibus vulputate mi. Maecenas iaculis, tortor cursus commodo vestibulum, enim dui hendrerit felis, sed sagittis enim lacus in nulla. Nunc id eros ut metus tempor auctor. Nullam faucibus dui enim. Ut vitae libero vitae odio suscipit euismod at sit amet justo.</p>
+                                <p> In hac habitasse platea dictumst. Nullam ut ligula dictum, sodales metus accumsan, cursus sapien. Aliquam feugiat eu dui sit amet bibendum. Pellentesque non tristique diam. Nulla facilisi. Phasellus ultricies leo eu dui feugiat, in accumsan nisi elementum. Aliquam consequat ipsum sit amet ante volutpat, vel egestas velit eleifend. Etiam eget porttitor sapien, nec porttitor nisl. Donec tristique ex ac risus facilisis mollis. Nam tincidunt libero mi. Fusce egestas dignissim scelerisque. Sed eget hendrerit risus. Donec molestie orci at risus aliquet viverra. Sed eget porttitor ante.</p>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ms">
+                        <a name="ms" id="ms"></a>
+                        <h1 class="tms">Mídias sociais</h1>
+
+                    <div class="contms">
+
+                        <div class="div_text2">
+                            <div class="txt2">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>                            
+                            </div>
+                        </div>
+
+                        <div class="div_foto2">
+                            <img class="foto2" src="img/dog.jpg">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pr">
+                        <a name="pr" id="pr"></a>
+                        <h1 class="tpr">Produto</h1>
+                    
+                    <div class="contpr">
+
+                        <div class="div_foto3">
+                            <img class="foto3" src="img/dog2.jpg">
+                        </div>
+        
+                        <div class="div_text3">
+                            <div class="text3">
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>
+                                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac odio in odio egestas scelerisque. Cras eget fringilla ante. Duis vestibulum luctus egestas. Pellentesque felis ex, tincidunt ac elementum a, vulputate consequat neque. Maecenas cursus, elit in viverra rhoncus, nibh risus ornare erat, nec laoreet dolor urna eu est. Nam tempus nisl ultricies massa aliquet pulvinar. In accumsan, leo vitae sollicitudin aliquet, arcu ante tincidunt ex, a lobortis justo libero eu eros. Etiam convallis mi ligula, at condimentum ex fringilla bibendum. Aenean hendrerit felis turpis. Donec aliquam mollis ipsum, sed rutrum lorem.</p>                            
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="footer">
+            <div>
+                <p class="text_footer">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lectus purus, sollicitudin et diam a, tincidunt imperdiet diam. Duis dapibus mattis nisi, pellentesque dignissim magna efficitur eu. Aliquam erat volutpat. Phasellus ut felis ut enim suscipit laoreet non sed lectus. Duis elementum quis magna a facilisis. Sed in purus ut nulla feugiat posuere. Morbi quis congue elit. Vestibulum sodales metus ut mattis fermentum. Donec rhoncus enim non varius scelerisque. Morbi mollis consectetur enim, quis finibus dui gravida ut. Sed aliquam quam sed nibh gravida, ut feugiat urna tempor. Integer tempus ornare imperdiet. Sed quam felis, egestas eget dignissim non, elementum nec odio. Vestibulum eu accumsan tellus, vel posuere leo. In iaculis metus vitae lorem ullamcorper, interdum egestas arcu lacinia. Cras ut auctor est.
+                </p>
+            </div>
+                <a name="cc" id="cc"></a>
+                <h1 class="h1_footer"> Como comprar? </h1>
+
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            if(this.getAttribute('href') != "#"){
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth', block: 'start', inline: 'nearest'
+            });
+            }
+            });
+            });
+    </script>
+    </body>
+</html>
